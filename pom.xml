@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>sis.abanca</groupId>
     <artifactId>api</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <distributionManagement>
