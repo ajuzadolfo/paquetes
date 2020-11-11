@@ -22,4 +22,7 @@ jobs:
             -DpomFile=./pom.xml \
             -DrepositoryId=github \
             -Durl=https://maven.pkg.github.com/ajuzadolfo/paquetes \
-            -Dtoken=${{ secrets.GITHUB_TOKEN }} \
+            -Dtoken=${{ secrets.GITHUB_TOKEN }} 
+      - uses: actions/delete-package-versions@v1
+        with:
+          package-name: "sis.abanca-api"
